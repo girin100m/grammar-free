@@ -8,11 +8,13 @@ test('catalog has three grade groups and unique lesson ids',()=>{
   assert.equal(new Set(all.map(l=>l.id)).size,all.length);
   assert.equal(data.grades[0].groups.flatMap(s=>s.lessons).length,25);
 });
-test('only the be-verb lesson is available, other lessons visibly planned',()=>{
+test('be-verb and general-verb lessons available, other lessons planned',()=>{
   const all=data.grades.flatMap(g=>g.groups.flatMap(s=>s.lessons));
   const ready=all.filter(l=>l.status==='available');
-  assert.equal(ready.length,1);
+  assert.equal(ready.length,2);
   assert.equal(ready[0].title,'be동사');
   assert.equal(ready[0].questionCount,100);
+  assert.equal(ready[1].title,'일반동사');
+  assert.equal(ready[1].questionCount,100);
   assert.ok(all.filter(l=>l.status==='planned').every(l=>l.questionCount===0));
 });

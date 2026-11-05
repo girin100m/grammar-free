@@ -1,6 +1,6 @@
 {
   "schema": "munbeopbaro-course-catalog-v1",
-  "note": "중1은 8종 교과서 문법 주제 통합 초안. 중2·중3은 미확정 구성 초안. 준비 중 단원에는 문제은행이 없음.",
+  "note": "중1은 8종 교과서 공통 문법 주제 통합 초안. be동사·일반동사 문항 공개. 중2·중3은 미확정 구성 초안.",
   "grades": [
     {
       "grade": 1,
@@ -20,9 +20,9 @@
             {
               "id": "G1-02",
               "title": "일반동사",
-              "status": "planned",
-              "questionCount": 0,
-              "questionBank": null
+              "status": "available",
+              "questionCount": 100,
+              "questionBank": "/data/general-verbs-100.json"
             },
             {
               "id": "G1-03",
