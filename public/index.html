@@ -3,30 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#FBF9F3" />
-  <meta name="description" content="문법바로 — 중학생을 위한 무료 영문법 문제풀이. 중1 be동사 100문제를 10문제씩 풀고, 채점과 해설, 오답 복습까지 무료로 이용하세요." />
-  <meta property="og:title" content="문법바로 | 중1 be동사 100문제 무료" />
+  <meta name="theme-color" content="#F6F8F7" />
+  <meta name="description" content="문법바로 — 중1·중2·중3 문법을 골라 무료로 공부하는 온라인 영문법 연습장. 중1 be동사 100문제부터 시작해요." />
+  <meta property="og:title" content="문법바로 | 중등 영문법 무료 문제풀이" />
   <meta property="og:description" content="딱 10문제씩, 부담 없이 문법 연습! 정답·해설·오답 복습까지 무료." />
-  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <!-- Licensed open web fonts, loaded from external CDN. Font binaries are not bundled. -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/GmarketSans/subsets/GmarketSans-dynamic-subset.css" />
   <link rel="stylesheet" href="/assets/styles.css" />
-  <title>문법바로 | 중1 be동사 100문제 무료</title>
+  <title>문법바로 | 중등 영문법 무료 문제풀이</title>
   <script type="module" src="/assets/app.js"></script>
+  <script type="module" src="/assets/catalog.js"></script>
 </head>
 <body>
 <a class="skip-link" href="#questions">문제로 바로 이동</a>
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/" aria-label="문법바로 홈">
-      <span class="brand-icon" aria-hidden="true"><span>바</span><i></i></span>
+      <img class="brand-icon-image" src="/assets/munbeopbaro-icon.png" width="44" height="44" alt="" />
       <span class="brand-copy"><strong>문법바로</strong><small>중학생 무료 영문법</small></span>
     </a>
     <div class="header-actions">
-      <span class="free-tag"><span class="free-dot" aria-hidden="true"></span>100% 무료</span>
-      <a class="header-start" href="#practice">문제 풀기 <span aria-hidden="true">↗</span></a>
+      <span class="free-tag"><span class="free-dot" aria-hidden="true"></span>전 강의 무료</span>
+      <a class="header-start" href="#catalog">문법 찾기 <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </header>
@@ -34,33 +36,45 @@
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-star">✦</span> 중학교 1학년 · 문법 01</p>
-        <h1 id="hero-title">be동사,<br /><em>오늘은 10문제만!</em></h1>
-        <p class="hero-description">어렵게 생각하지 마. <strong>한 번에 10문제씩</strong> 풀다 보면<br class="desktop-break" /> am · is · are가 자연스럽게 익숙해질 거야.</p>
+        <p class="eyebrow"><span class="eyebrow-star">●</span> 중1부터 중3까지 · 무료 영문법</p>
+        <h1 id="hero-title">문법 공부,<br /><em>바로 시작하자.</em></h1>
+        <p class="hero-description">필요한 문법을 고르고, <strong>10문제씩 차근차근.</strong><br class="desktop-break"/> 채점부터 자세한 해설까지, 여기서 모두 무료로.</p>
         <div class="hero-actions">
-          <a class="hero-primary" href="#practice">바로 문제 풀기 <span aria-hidden="true">→</span></a>
-          <button id="continue-button" class="hero-secondary" type="button">이어서 풀기 <span aria-hidden="true">↗</span></button>
+          <a class="hero-primary" href="#catalog">문법 단원 둘러보기 <span aria-hidden="true">→</span></a>
+          <button id="continue-button" class="hero-secondary" type="button">be동사 이어 풀기 <span aria-hidden="true">↗</span></button>
         </div>
-        <div class="hero-trust"><span>✓ 회원가입 필요 없음</span><span>✓ 바로 채점</span><span>✓ 상세 해설</span></div>
+        <div class="hero-trust"><span>회원가입 없이</span><span>무료 자동 채점</span><span>상세 해설 · 오답 복습</span></div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="art-decoration decoration-top">✳</div>
-        <div class="hero-paper">
-          <div class="paper-heading"><span>오늘의 문법 노트</span><span class="paper-heading-star">✦</span></div>
-          <div class="paper-title">be동사 연습</div>
-          <div class="paper-subtitle">알맞은 말을 골라 볼까요?</div>
-          <div class="paper-example">I <span class="paper-blank">am</span> ready!</div>
-          <div class="paper-line"><span class="paper-dot"></span> am <span class="paper-tick">✓</span></div>
-          <div class="paper-line faded"><span class="paper-dot"></span> is</div>
-          <div class="paper-line faded"><span class="paper-dot"></span> are</div>
-          <div class="paper-note">조금씩 풀어도 괜찮아 :)</div>
+      <div class="hero-art hero-brand-art" aria-hidden="true">
+        <div class="hero-brand-card">
+          <img src="/assets/munbeopbaro-icon.png" alt="" width="178" height="178" />
+          <div class="hero-brand-art-caption"><span class="hero-brand-kicker">GRAMMAR, MADE SIMPLE</span><strong>한 단원씩, 더 확실하게.</strong><span>문법바로와 함께</span></div>
         </div>
-        <div class="art-decoration decoration-bottom">✴</div>
       </div>
     </div>
     <div class="hero-bottom-line"></div>
   </section>
 
+  <section id="catalog" class="catalog" aria-labelledby="catalog-title">
+    <div class="catalog-inner">
+      <div class="catalog-intro">
+        <div><p class="section-kicker">문법 단원 찾기</p><h2 id="catalog-title">오늘은 어떤 문법을 공부할까?</h2><p>학년을 고른 다음 필요한 단원을 찾아봐. 준비된 강의부터 차례로 공개할게.</p></div>
+        <div class="catalog-count" id="catalog-count">중1 25개 단원 · 학습 가능 1개</div>
+      </div>
+      <div class="grade-tabs" id="grade-tabs" role="tablist" aria-label="학년 선택">
+        <button type="button" class="grade-tab active" data-grade="1" role="tab" aria-selected="true">중학교 1학년 <span>25강</span></button>
+        <button type="button" class="grade-tab" data-grade="2" role="tab" aria-selected="false">중학교 2학년</button>
+        <button type="button" class="grade-tab" data-grade="3" role="tab" aria-selected="false">중학교 3학년</button>
+      </div>
+      <div class="catalog-toolbar">
+        <label class="catalog-search"><span class="sr-only">문법 이름 검색</span><span aria-hidden="true">⌕</span><input id="catalog-search" type="search" autocomplete="off" placeholder="문법 이름 검색 (예: 동명사)" /></label>
+        <span id="catalog-note" class="catalog-note">8종 교과서 문법 개념을 합쳐 정리했어.</span>
+      </div>
+      <div id="catalog-grid" class="catalog-groups" aria-live="polite">
+        <div class="catalog-loading">문법 목록을 준비하고 있어.</div>
+      </div>
+    </div>
+  </section>
   <div class="app-shell">
     <section class="intro-row" aria-label="학습 현황">
       <div class="section-title">
@@ -83,7 +97,7 @@
 
     <section class="quiz" id="practice" aria-label="문법 문제 풀이">
       <div class="quiz-header">
-        <div class="quiz-heading"><p class="section-kicker">지금부터 연습해 볼까?</p><h2>중1 · be동사 100문제</h2><p>10문제씩 풀고, 채점한 뒤 해설까지 확인해 봐.</p></div>
+        <div class="quiz-heading"><p class="section-kicker"><a class="back-to-catalog" href="#catalog">← 문법 목록</a> · 지금부터 연습해 볼까?</p><h2>중1 · be동사 100문제</h2><p>10문제씩 풀고, 채점한 뒤 해설까지 확인해 봐.</p></div>
         <span class="quiz-label">문법 01</span>
       </div>
       <div class="quiz-tabs" role="tablist" aria-label="학습 모드">
@@ -110,7 +124,7 @@
     <details class="data-section"><summary><span class="data-mark" aria-hidden="true">ⓘ</span><span>내 공부 기록은 어떻게 저장되나요?</span><span class="help-arrow" aria-hidden="true">⌄</span></summary><div class="data-section-content"><p>회원가입 없이 이 기기의 브라우저에만 저장돼. 다른 기기나 시크릿 모드에서는 기록이 보이지 않을 수 있어. 브라우저 데이터를 지우면 기록도 사라질 수 있으니 필요하면 위의 ‘기록 저장’을 이용해 줘.</p><button type="button" id="reset-button" class="text-danger">학습 기록 전체 지우기</button></div></details>
   </div>
 </main>
-<footer class="footer"><div class="footer-inner"><div class="footer-brand">문법바로<span class="footer-heart">✦</span></div><div>영어 문법, 누구나 부담 없이.</div><div class="footer-meta">v0.2 · 시범 운영 중 · 모든 문제 무료</div></div></footer>
+<footer class="footer"><div class="footer-inner"><div class="footer-brand">문법바로<span class="footer-heart">✦</span></div><div>영어 문법, 누구나 부담 없이.</div><div class="footer-meta">v0.3 · 100문제 공개 · 다른 단원 준비 중</div></div></footer>
 <div class="mobile-actions" id="mobile-actions" hidden><span class="mobile-page-label" id="mobile-page-label">10문제씩 차근차근</span><button type="button" id="mobile-grade-button" class="mobile-grade-button">지금 채점하기 <span aria-hidden="true">→</span></button></div>
 <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 </body>

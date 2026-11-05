@@ -1,0 +1,426 @@
+{
+  "schema": "munbeopbaro-course-catalog-v1",
+  "note": "중1은 8종 교과서 문법 주제 통합 초안. 중2·중3은 미확정 구성 초안. 준비 중 단원에는 문제은행이 없음.",
+  "grades": [
+    {
+      "grade": 1,
+      "label": "중1",
+      "confirmed": true,
+      "groups": [
+        {
+          "group": "문장의 기초",
+          "lessons": [
+            {
+              "id": "G1-01",
+              "title": "be동사",
+              "status": "available",
+              "questionCount": 100,
+              "questionBank": "/data/be-verb-100.json"
+            },
+            {
+              "id": "G1-02",
+              "title": "일반동사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-03",
+              "title": "의문문과 의문사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-04",
+              "title": "명령문",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-05",
+              "title": "There is / are",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-06",
+              "title": "2형식 문장과 감각동사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "시제와 조동사",
+          "lessons": [
+            {
+              "id": "G1-07",
+              "title": "현재진행형",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-08",
+              "title": "과거시제",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-09",
+              "title": "미래 표현 will",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-10",
+              "title": "조동사 can",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-11",
+              "title": "should / have to",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "문장의 형식",
+          "lessons": [
+            {
+              "id": "G1-12",
+              "title": "4형식 문장",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-13",
+              "title": "5형식 문장",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "준동사",
+          "lessons": [
+            {
+              "id": "G1-14",
+              "title": "to부정사의 명사적 용법",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-15",
+              "title": "to부정사의 부사적 용법",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-16",
+              "title": "동명사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "비교와 주요 표현",
+          "lessons": [
+            {
+              "id": "G1-17",
+              "title": "비교급",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-18",
+              "title": "최상급",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-19",
+              "title": "감탄문",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-20",
+              "title": "재귀대명사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-21",
+              "title": "-thing + 형용사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "접속사와 주어",
+          "lessons": [
+            {
+              "id": "G1-22",
+              "title": "접속사 when",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-23",
+              "title": "접속사 because",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-24",
+              "title": "접속사 that",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G1-25",
+              "title": "비인칭주어 it",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "label": "중2",
+      "confirmed": false,
+      "groups": [
+        {
+          "group": "시제·태",
+          "lessons": [
+            {
+              "id": "G2-01",
+              "title": "현재완료",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G2-02",
+              "title": "과거진행형",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G2-03",
+              "title": "수동태",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "준동사",
+          "lessons": [
+            {
+              "id": "G2-04",
+              "title": "to부정사의 형용사적 용법",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G2-05",
+              "title": "동명사와 to부정사의 비교",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G2-06",
+              "title": "분사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "문장의 확장",
+          "lessons": [
+            {
+              "id": "G2-07",
+              "title": "관계대명사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G2-08",
+              "title": "접속사 if / although",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G2-09",
+              "title": "간접의문문",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "문장 구조",
+          "lessons": [
+            {
+              "id": "G2-10",
+              "title": "5형식 목적격보어",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G2-11",
+              "title": "사역동사와 지각동사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "label": "중3",
+      "confirmed": false,
+      "groups": [
+        {
+          "group": "고급 시제·구문",
+          "lessons": [
+            {
+              "id": "G3-01",
+              "title": "과거완료",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G3-02",
+              "title": "가정법 과거",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G3-03",
+              "title": "가정법 과거완료",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "분사·준동사",
+          "lessons": [
+            {
+              "id": "G3-04",
+              "title": "분사구문",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G3-05",
+              "title": "완료부정사·완료동명사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "복합문",
+          "lessons": [
+            {
+              "id": "G3-06",
+              "title": "관계부사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G3-07",
+              "title": "복합관계사",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G3-08",
+              "title": "명사절과 부사절",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        },
+        {
+          "group": "실전 어법",
+          "lessons": [
+            {
+              "id": "G3-09",
+              "title": "도치와 강조",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G3-10",
+              "title": "접속사와 전치사의 구별",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            },
+            {
+              "id": "G3-11",
+              "title": "문장 전환 실전",
+              "status": "planned",
+              "questionCount": 0,
+              "questionBank": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

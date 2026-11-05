@@ -15,6 +15,14 @@ let level = 'all';
 let page = 0;
 let storageAvailable = true;
 let toastTimeout;
+let quizInView = false;
+function syncMobileActions() { const bar=$('#mobile-actions'); if (bar) bar.hidden = !quizInView || filtered().length === 0; }
+function watchQuizVisibility() {
+  const quiz=$('#practice');
+  if (!('IntersectionObserver' in window)) {quizInView=true;return;}
+  const observer=new IntersectionObserver(entries=>{quizInView=entries.some(entry=>entry.isIntersecting);syncMobileActions();},{threshold:0});
+  observer.observe(quiz);
+}
 
 function loadStorage() {
   try {
@@ -93,7 +101,7 @@ function render() {
     root.innerHTML=`<div class="empty-state"><div class="empty-state-icon">${mode==='review'?'🎉':'🔎'}</div><h3>${mode==='review'?'복습할 문제가 없어요!':'조건에 맞는 문제가 없어요'}</h3><p>${mode==='review'?'전체 문제에서 먼저 채점하거나, 복습 문제를 모두 해결했다면 다른 문제에 도전해 보세요.':'다른 유형이나 난이도를 선택해 보세요.'}</p><button type="button" class="ghost-button" data-go-all="true">전체 문제 보기</button></div>`;
   } else root.innerHTML=display.map(questionHTML).join('');
   $('#quiz-footer').hidden=!items.length;
-  const mobileBar=$('#mobile-actions');if(mobileBar)mobileBar.hidden=!items.length;
+  const mobileBar=$('#mobile-actions');if(mobileBar)mobileBar.hidden=!items.length || !quizInView;
   $('#prev-button').disabled=page<=0;
   $('#next-button').disabled=page>=totalPages-1;
   $('#grade-button').textContent=mode==='all'?'이 페이지 채점하기 →':'복습 답안 채점하기 →';
@@ -170,7 +178,7 @@ function attachEvents(){
 }
 function validQuestion(q){return q&&typeof q.id==='string'&&typeof q.question==='string'&&['객관식','주관식'].includes(q.kind) && typeof q.explanation==='string';}
 async function init(){
-  attachEvents();loadStorage();
+  attachEvents();watchQuizVisibility();loadStorage();
   try{
     const res=await fetch('/data/be-verb-100.json',{cache:'no-cache'});
     if(!res.ok)throw new Error(`서버 응답 ${res.status}`);
