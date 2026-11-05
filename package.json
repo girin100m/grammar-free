@@ -1,9 +1,9 @@
 {
-  "name": "free-middle-school-grammar-v01",
+  "name": "munbeopbaro-v02",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
-  "description": "중1 be동사 100문제 무료 온라인 연습장 - GitHub/Cloudflare Pages 정적 웹앱",
+  "description": "문법바로 v0.2 - 중1 be동사 100문제 무료 온라인 학습 사이트",
   "scripts": {
     "validate": "node scripts/validate-data.mjs",
     "test": "node --test tests/*.test.mjs",

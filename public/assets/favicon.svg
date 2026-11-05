@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#14304d"/><text x="32" y="43" font-family="Arial,sans-serif" font-size="39" text-anchor="middle" fill="#c3ed78" font-weight="900">G.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="16" fill="#253D57"/>
+<path d="M15 20h34v4H15z" fill="#E8C170" opacity=".6"/>
+<text x="32" y="46" font-family="Apple SD Gothic Neo,Malgun Gothic,sans-serif" text-anchor="middle" font-size="35" font-weight="800" fill="#fff">바</text>
+<circle cx="51" cy="13" r="7" fill="#E8C170"/>
+</svg>

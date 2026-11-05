@@ -1,5 +1,6 @@
 import {answerParts, isAnswered, gradeQuestion, expectedAnswer, acceptedVariants, summary} from './grading.js';
 
+// Keep previous key so progress survives the visual redesign.
 const STORAGE_KEY = 'grit-grammar:be-verb:v01';
 const QUESTIONS_PER_PAGE = 10;
 const root = document.querySelector('#questions');
@@ -70,6 +71,7 @@ function updateStats() {
   $('#progress-percent').textContent=`${percent}%`;
   $('#progress-fill').style.width=`${percent}%`;
   $('#tab-review-count').textContent=String(s.retry);
+  const mobile=$('#mobile-page-label'); if(mobile)mobile.textContent=mode==='review'?'오답 다시 풀기':`${page*QUESTIONS_PER_PAGE+1}~${Math.min((page+1)*QUESTIONS_PER_PAGE,filtered().length)}번 풀이`; 
   const end=$('.data-section p');
   if (!storageAvailable && end && !end.textContent.includes('저장할 수 없습니다')) {
     end.textContent+=' 현재 브라우저에서는 저장할 수 없습니다. 일반 브라우저 모드에서 이용해 주세요.';
@@ -91,6 +93,7 @@ function render() {
     root.innerHTML=`<div class="empty-state"><div class="empty-state-icon">${mode==='review'?'🎉':'🔎'}</div><h3>${mode==='review'?'복습할 문제가 없어요!':'조건에 맞는 문제가 없어요'}</h3><p>${mode==='review'?'전체 문제에서 먼저 채점하거나, 복습 문제를 모두 해결했다면 다른 문제에 도전해 보세요.':'다른 유형이나 난이도를 선택해 보세요.'}</p><button type="button" class="ghost-button" data-go-all="true">전체 문제 보기</button></div>`;
   } else root.innerHTML=display.map(questionHTML).join('');
   $('#quiz-footer').hidden=!items.length;
+  const mobileBar=$('#mobile-actions');if(mobileBar)mobileBar.hidden=!items.length;
   $('#prev-button').disabled=page<=0;
   $('#next-button').disabled=page>=totalPages-1;
   $('#grade-button').textContent=mode==='all'?'이 페이지 채점하기 →':'복습 답안 채점하기 →';
@@ -130,7 +133,7 @@ function selfGrade(id,newStatus){
   state.retryPool=[...pool];saveStorage();render();alertToast(newStatus==='correct'?'자가 확인 결과 정답으로 반영했어요.':'복습 목록에 남겨 두었어요.');
 }
 function exportRecord(){
-  const payload={exportedAt:new Date().toISOString(),schema:'grit-grammar-v01',unit:'중1 be동사',...state};
+  const payload={exportedAt:new Date().toISOString(),schema:'munbeopbaro-v02',unit:'중1 be동사',...state};
   const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json;charset=utf-8'});
   const url=URL.createObjectURL(blob);
   const a=document.createElement('a');a.href=url;a.download=`be-grammar-study-${new Date().toISOString().slice(0,10)}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);
@@ -154,6 +157,13 @@ function attachEvents(){
   $('#prev-button').addEventListener('click',()=>goPage(page-1));
   $('#next-button').addEventListener('click',()=>goPage(page+1));
   $('#grade-button').addEventListener('click',gradeCurrentPage);
+  $('#mobile-grade-button')?.addEventListener('click',gradeCurrentPage);
+  $('#continue-button')?.addEventListener('click',()=>{
+    mode='all';kind='all';level='all';
+    const first=questions.findIndex(q=>!isAnswered(q,state.mainAnswers[q.id]));
+    page=Math.floor((first<0?0:first)/QUESTIONS_PER_PAGE);render();
+    $('#practice').scrollIntoView({behavior:'smooth',block:'start'});
+  });
   $('#page-numbers').addEventListener('click',e=>{const el=e.target.closest('[data-go-page]');if(el)goPage(Number(el.dataset.goPage));});
   $('#export-button').addEventListener('click',exportRecord);
   $('#reset-button').addEventListener('click',resetRecord);
@@ -172,7 +182,7 @@ async function init(){
     render();
   }catch(err){
     console.error('문제은행 로딩 실패:',err);
-    root.innerHTML=`<div class="empty-state"><div class="empty-state-icon">⚠</div><h3>문제를 불러오지 못했어요</h3><p>HTML 파일을 직접 열면 데이터가 로드되지 않을 수 있어요.<br>Cloudflare Pages에 배포된 주소로 접속하거나, 프로젝트 폴더에서 <strong>npm run dev</strong>를 실행하세요.</p><p class="file-tip">오류: ${escapeHTML(err.message)}</p></div>`;
+    root.innerHTML=`<div class="empty-state"><div class="empty-state-icon">⚠</div><h3>문제를 불러오지 못했어요</h3><p>HTML 파일을 직접 열면 데이터가 로드되지 않을 수 있어요.<br>배포된 웹사이트 주소로 접속하거나, 프로젝트 폴더에서 <strong>npm run dev</strong>를 실행하세요.</p><p class="file-tip">오류: ${escapeHTML(err.message)}</p></div>`;
     $('#results-info').textContent='문제 로드 실패';
   }
 }
