@@ -1,7 +1,9 @@
 import {answerParts, isAnswered, gradeQuestion, expectedAnswer, acceptedVariants, summary} from './grading.js';
+import {findLesson,storageKeyForLesson,validateBank} from './units.js';
 
-// Keep previous key so progress survives the visual redesign.
-const STORAGE_KEY = 'grit-grammar:be-verb:v01';
+// The be동사 key stays unchanged to preserve all existing student progress.
+let STORAGE_KEY = storageKeyForLesson('G1-01');
+let activeLesson = null;
 const QUESTIONS_PER_PAGE = 10;
 const root = document.querySelector('#questions');
 const $ = selector => document.querySelector(selector);
@@ -75,7 +77,7 @@ function updateStats() {
   const s=summary(questions,state.mainAnswers,state.mainResults,state.retryPool);
   const values=[s.answered,s.graded,s.correct,s.retry];
   for (const [i,node] of [...document.querySelectorAll('.stat strong')].entries()) node.textContent=String(values[i]);
-  const percent=Math.round(100*s.answered/(s.total||100));
+  const percent=Math.round(100*s.answered/(s.total||1));
   $('#progress-percent').textContent=`${percent}%`;
   $('#progress-fill').style.width=`${percent}%`;
   $('#tab-review-count').textContent=String(s.retry);
@@ -141,14 +143,14 @@ function selfGrade(id,newStatus){
   state.retryPool=[...pool];saveStorage();render();alertToast(newStatus==='correct'?'자가 확인 결과 정답으로 반영했어요.':'복습 목록에 남겨 두었어요.');
 }
 function exportRecord(){
-  const payload={exportedAt:new Date().toISOString(),schema:'munbeopbaro-v02',unit:'중1 be동사',...state};
+  const payload={exportedAt:new Date().toISOString(),schema:'munbeopbaro-v04',lessonId:activeLesson.id,unit:`${activeLesson.gradeLabel} ${activeLesson.title}`,...state};
   const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json;charset=utf-8'});
   const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');a.href=url;a.download=`be-grammar-study-${new Date().toISOString().slice(0,10)}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);
+  const a=document.createElement('a');a.href=url;a.download=`${activeLesson.id}-study-${new Date().toISOString().slice(0,10)}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);
   alertToast('학습 기록 JSON 파일을 내려받았어요.');
 }
 function resetRecord(){
-  if(!confirm('이 브라우저에 저장된 be동사 풀이·채점·오답 기록이 모두 사라집니다. 초기화할까요?'))return;
+  if(!confirm(`이 브라우저에 저장된 ${activeLesson.title} 풀이·채점·오답 기록만 사라집니다. 초기화할까요?`))return;
   state=NEW_STATE();try{localStorage.removeItem(STORAGE_KEY);}catch{}mode='all';kind='all';level='all';page=0;render();alertToast('학습 기록을 초기화했어요.');
 }
 function attachEvents(){
@@ -176,21 +178,37 @@ function attachEvents(){
   $('#export-button').addEventListener('click',exportRecord);
   $('#reset-button').addEventListener('click',resetRecord);
 }
-function validQuestion(q){return q&&typeof q.id==='string'&&typeof q.question==='string'&&['객관식','주관식'].includes(q.kind) && typeof q.explanation==='string';}
+function updateLessonLabels(){
+  const name=`${activeLesson.gradeLabel} · ${activeLesson.title} ${activeLesson.questionCount}문제`;
+  $('#practice .quiz-heading h2').textContent=name;
+  $('#practice .quiz-label').textContent=`문법 ${activeLesson.id.split('-')[1]}`;
+  $('#tab-all span').textContent=String(activeLesson.questionCount);
+  document.querySelectorAll('.stat small').forEach((el,i)=>{if(i<2)el.textContent=`/ ${activeLesson.questionCount}문제`;});
+  $('#continue-button').textContent=`${activeLesson.title} 이어 풀기 ↗`;
+  $('#practice').setAttribute('aria-label',`${activeLesson.gradeLabel} ${activeLesson.title} 문제 풀이`);
+}
 async function init(){
-  attachEvents();watchQuizVisibility();loadStorage();
+  attachEvents();watchQuizVisibility();
   try{
-    const res=await fetch('/data/be-verb-100.json',{cache:'no-cache'});
-    if(!res.ok)throw new Error(`서버 응답 ${res.status}`);
-    const bank=await res.json();
-    if(!Array.isArray(bank.questions)||bank.questions.length!==100||!bank.questions.every(validQuestion))throw new Error('문제은행 형식이 올바르지 않습니다.');
-    questions=bank.questions;
-    // Ignore obsolete records from a future question bank with deleted IDs.
-    const validIds=new Set(questions.map(q=>q.id));state.retryPool=state.retryPool.filter(id=>validIds.has(id));
+    const catalogResponse=await fetch('/data/course-catalog.json',{cache:'no-cache'});
+    if(!catalogResponse.ok)throw new Error(`단원 목록 서버 응답 ${catalogResponse.status}`);
+    const catalog=await catalogResponse.json();
+    const params=new URLSearchParams(window.location.search);
+    activeLesson=findLesson(catalog,params.get('unit'));
+    if(!activeLesson)throw new Error('학습 가능한 단원이 없어요.');
+    STORAGE_KEY=storageKeyForLesson(activeLesson.id);
+    updateLessonLabels();
+    const res=await fetch(activeLesson.questionBank,{cache:'no-cache'});
+    if(!res.ok)throw new Error(`문제은행 서버 응답 ${res.status}`);
+    questions=validateBank(activeLesson,await res.json());
+    // Only load records after identifying the lesson; be동사 keeps its legacy key.
+    loadStorage();
+    const validIds=new Set(questions.map(q=>q.id));
+    state.retryPool=state.retryPool.filter(id=>validIds.has(id));
     render();
   }catch(err){
     console.error('문제은행 로딩 실패:',err);
-    root.innerHTML=`<div class="empty-state"><div class="empty-state-icon">⚠</div><h3>문제를 불러오지 못했어요</h3><p>HTML 파일을 직접 열면 데이터가 로드되지 않을 수 있어요.<br>배포된 웹사이트 주소로 접속하거나, 프로젝트 폴더에서 <strong>npm run dev</strong>를 실행하세요.</p><p class="file-tip">오류: ${escapeHTML(err.message)}</p></div>`;
+    root.innerHTML=`<div class="empty-state"><div class="empty-state-icon">⚠</div><h3>문제를 불러오지 못했어요</h3><p>새로고침하거나 문법 목록에서 다른 단원을 선택해 줘.</p><p class="file-tip">오류: ${escapeHTML(err.message)}</p></div>`;
     $('#results-info').textContent='문제 로드 실패';
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "munbeopbaro-v03",
+  "name": "munbeopbaro-v04",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
-  "description": "문법바로 v0.3 - 학년·단원별 문법 목록 + be동사 100문제",
+  "description": "문법바로 v0.4 - 공통 문법 퀴즈 엔진과 be동사·일반동사 각 100문항",
   "scripts": {
     "validate": "node scripts/validate-data.mjs",
     "test": "node --test tests/*.test.mjs",
