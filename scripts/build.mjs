@@ -1,0 +1,10 @@
+import {spawnSync} from 'node:child_process';
+import {cpSync,existsSync,mkdirSync,rmSync} from 'node:fs';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const validate=spawnSync(process.execPath,[resolve(root,'scripts/validate-data.mjs')],{stdio:'inherit'});
+if(validate.status!==0)process.exit(validate.status||1);
+const dist=resolve(root,'dist');if(existsSync(dist))rmSync(dist,{recursive:true,force:true});mkdirSync(dist,{recursive:true});
+cpSync(resolve(root,'public'),dist,{recursive:true});
+console.log(`Static site built → ${dist}`);

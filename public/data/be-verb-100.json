@@ -1,0 +1,2704 @@
+{
+  "metadata": {
+    "unit": "중1 be동사 현재형",
+    "count": 100,
+    "multiple_choice": 50,
+    "short_answer": 50,
+    "difficulty": {
+      "기초": 30,
+      "기본": 40,
+      "심화": 30
+    },
+    "version": "1.0",
+    "note": "기존 시범문항 20개 ID 유지. AI 1차 자체 검수; 공개 전 교사 최종 검수 권장.",
+    "site_v01_changes": "v0.1 사이트 검증 중 중복 문장 2개(Q74, Q88)를 새로운 문장으로 교체하고, 짧은 해설 3개(Q11, Q61, Q67)를 보강."
+  },
+  "questions": [
+    {
+      "id": "G1-BE-001",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "I ______ a middle school student.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "am"
+      ],
+      "answer_parts": [],
+      "explanation": "주어 I에는 현재형 be동사 am을 사용한다. is는 3인칭 단수, are는 you와 복수 주어에 사용한다.",
+      "tags": "be동사 현재형,인칭",
+      "review": "1차 자체 검수 완료",
+      "display_no": 1,
+      "question_code": "M01",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-002",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "My brother ______ twelve years old.",
+      "options": [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "My brother는 3인칭 단수이므로 is가 정답이다. 나이를 말할 때에도 be동사를 사용한다.",
+      "tags": "단수 주어,나이 표현",
+      "review": "1차 자체 검수 완료",
+      "display_no": 2,
+      "question_code": "M02",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-003",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "These shoes ______ new.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "These shoes는 복수 명사구이므로 are를 사용한다.",
+      "tags": "복수 주어,지시어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 3,
+      "question_code": "M03",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-004",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "Anna and I ______ in the same class.",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "Anna and I는 두 사람을 가리키는 복수 주어이므로 are를 쓴다.",
+      "tags": "복합주어,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 4,
+      "question_code": "M04",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-005",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "He ______ hungry right now.",
+      "options": [
+        "don't",
+        "doesn't",
+        "isn't",
+        "aren't"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "isn't"
+      ],
+      "answer_parts": [],
+      "explanation": "He is hungry의 부정문은 He is not hungry다. is not의 축약형인 isn't가 맞다. don't·doesn't를 be동사 대신 사용할 수 없다.",
+      "tags": "부정문,축약형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 5,
+      "question_code": "M05",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-006",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "주어진 평서문을 의문문으로 바르게 바꾼 것은?",
+      "question": "They are late.",
+      "options": [
+        "Are they late?",
+        "Do they are late?",
+        "Is they late?",
+        "Are late they?"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "Are they late?"
+      ],
+      "answer_parts": [],
+      "explanation": "be동사 의문문은 be동사를 주어 앞으로 옮긴다. They are late. → Are they late?",
+      "tags": "의문문,도치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 6,
+      "question_code": "M06",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-007",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: Is Jina in the library?\nB: Yes, ______.",
+      "options": [
+        "she's",
+        "she does",
+        "she is",
+        "she are"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "she is"
+      ],
+      "answer_parts": [],
+      "explanation": "Is Jina ...?의 긍정 단답형은 Yes, she is.이다. 긍정 단답형의 끝에서는 she's로 줄이지 않는다.",
+      "tags": "긍정 단답형,대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 7,
+      "question_code": "M07",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-008",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The teacher with two students ______ in the classroom.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "with two students는 주어를 수식하는 전치사구다. 핵심 주어 The teacher가 단수이므로 is가 맞다.",
+      "tags": "핵심 주어,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 8,
+      "question_code": "M08",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-009",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "어법상 올바른 문장을 하나 고르시오.",
+      "question": "다음 중 어법상 옳은 문장은?",
+      "options": [
+        "Where are your sister?",
+        "Why is the students late?",
+        "How old is your brother?",
+        "Who are that girl?"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "How old is your brother?"
+      ],
+      "answer_parts": [],
+      "explanation": "your brother는 단수이므로 is를 쓴 ③이 옳다. 나머지는 각각 is, are, is로 고쳐야 한다.",
+      "tags": "의문사 의문문,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 9,
+      "question_code": "M09",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-010",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The teacher and the students ______ ready, but the principal ______ not.",
+      "options": [
+        "are – is",
+        "is – are",
+        "are – are",
+        "is – is"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "are – is"
+      ],
+      "answer_parts": [],
+      "explanation": "The teacher and the students는 복수 주어이므로 are, the principal은 단수 주어이므로 is가 필요하다.",
+      "tags": "복합주어,대조적 수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 10,
+      "question_code": "M10",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-021",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "You ______ my best friend.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "주어 you에는 사람 수와 상관없이 are를 쓴다.",
+      "tags": "인칭,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 11,
+      "question_code": "M11",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-022",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "It ______ very cold today.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "It은 3인칭 단수 주어이므로 is를 사용한다.",
+      "tags": "비인칭주어,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 12,
+      "question_code": "M12",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-023",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "My parents ______ teachers.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "My parents는 두 사람 이상을 가리키므로 복수형 are가 알맞다.",
+      "tags": "복수 주어,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 13,
+      "question_code": "M13",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-024",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "We ______ ready for the test.",
+      "options": [
+        "am",
+        "is",
+        "be",
+        "are"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "주어 We는 1인칭 복수이므로 are가 필요하다.",
+      "tags": "인칭,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 14,
+      "question_code": "M14",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-025",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The sky ______ blue today.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "The sky는 단수 주어이므로 is가 맞다.",
+      "tags": "단수 주어,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 15,
+      "question_code": "M15",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-026",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "주어진 문장을 올바르게 줄여 쓴 것은?",
+      "question": "I am excited.",
+      "options": [
+        "I'm excited.",
+        "I're excited.",
+        "I's excited.",
+        "I excited."
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "I'm excited."
+      ],
+      "answer_parts": [],
+      "explanation": "I am을 줄이면 I'm이 된다. 나머지는 잘못된 축약 또는 be동사 누락이다.",
+      "tags": "축약형,긍정문",
+      "review": "1차 자체 검수 완료",
+      "display_no": 16,
+      "question_code": "M16",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-027",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "주어진 문장을 올바른 부정문으로 바꾼 것은?",
+      "question": "She is kind.",
+      "options": [
+        "She not kind.",
+        "She are not kind.",
+        "She does not kind.",
+        "She is not kind."
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "She is not kind."
+      ],
+      "answer_parts": [],
+      "explanation": "be동사 부정문은 is 뒤에 not을 붙인다. does not 뒤에는 동사원형이 필요하므로 ③은 틀리다.",
+      "tags": "부정문,어순",
+      "review": "1차 자체 검수 완료",
+      "display_no": 17,
+      "question_code": "M17",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-028",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "주어진 문장을 올바른 부정문으로 바꾼 것은?",
+      "question": "They are classmates.",
+      "options": [
+        "They isn't classmates.",
+        "They aren't classmates.",
+        "They doesn't classmates.",
+        "They not classmates."
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "They aren't classmates."
+      ],
+      "answer_parts": [],
+      "explanation": "are not의 축약형은 aren't다. 주어 They에는 are를 사용한다.",
+      "tags": "부정문,축약형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 18,
+      "question_code": "M18",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-029",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: Is the cat sleepy?\nB: Yes, ______.",
+      "options": [
+        "it are",
+        "it am",
+        "it is",
+        "it's"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "it is"
+      ],
+      "answer_parts": [],
+      "explanation": "단수 동물 the cat을 it으로 받고 긍정 단답형은 it is로 끝낸다. 긍정 단답형의 끝에서 it's는 쓰지 않는다.",
+      "tags": "긍정 단답형,대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 19,
+      "question_code": "M19",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-030",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: Are you a new student?\nB: Yes, ______.",
+      "options": [
+        "I am",
+        "you are",
+        "I is",
+        "I'm"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "I am"
+      ],
+      "answer_parts": [],
+      "explanation": "Are you ...?에 답하는 사람이 자기 자신을 말하면 Yes, I am.이라고 한다. 문장 끝에서 I'm으로 줄이지 않는다.",
+      "tags": "긍정 단답형,인칭 전환",
+      "review": "1차 자체 검수 완료",
+      "display_no": 20,
+      "question_code": "M20",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-031",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "Those books ______ heavy.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "Those books는 복수 주어이므로 are를 사용한다.",
+      "tags": "지시어,복수 주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 21,
+      "question_code": "M21",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-032",
+      "kind": "객관식",
+      "level": "기초",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "Tom and Mina ______ good friends.",
+      "options": [
+        "am",
+        "is",
+        "be",
+        "are"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "and로 연결한 두 사람은 복수 주어이므로 are가 정답이다.",
+      "tags": "복합주어,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 22,
+      "question_code": "M22",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-033",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "Who ______ your favorite teacher?",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "여기서 보어 your favorite teacher가 한 사람을 뜻하고 질문도 한 사람을 묻기 때문에 is가 자연스럽다.",
+      "tags": "의문사 의문문,단수",
+      "review": "1차 자체 검수 완료",
+      "display_no": 23,
+      "question_code": "M23",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-034",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "Where ______ the keys to the classroom?",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "the keys는 복수 주어이므로 Where are ...?를 사용한다.",
+      "tags": "의문사 의문문,복수",
+      "review": "1차 자체 검수 완료",
+      "display_no": 24,
+      "question_code": "M24",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-035",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "어법상 올바른 의문문을 하나 고르시오.",
+      "question": "다음 중 어법상 올바른 의문문은?",
+      "options": [
+        "Is those your bags?",
+        "Are this your bag?",
+        "Do this is your bag?",
+        "Is this your bag?"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "Is this your bag?"
+      ],
+      "answer_parts": [],
+      "explanation": "this는 단수 지시대명사이므로 Is this ...?가 옳다. 의문문에서 be동사를 앞으로 옮긴다.",
+      "tags": "의문문,지시대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 25,
+      "question_code": "M25",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-036",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The girls ______ not in the music room.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "The girls는 복수 주어이므로 are not을 사용한다.",
+      "tags": "부정문,복수 주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 26,
+      "question_code": "M26",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-037",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "My father and mother ______ busy this morning.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "아버지와 어머니 두 사람을 and로 연결했으므로 are가 맞다.",
+      "tags": "복합주어,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 27,
+      "question_code": "M27",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-038",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The students ______ excited, but their teacher ______ calm.",
+      "options": [
+        "is – are",
+        "are – are",
+        "is – is",
+        "are – is"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "are – is"
+      ],
+      "answer_parts": [],
+      "explanation": "the students는 복수라 are, their teacher는 단수라 is를 사용한다.",
+      "tags": "주어별 수 일치,대조",
+      "review": "1차 자체 검수 완료",
+      "display_no": 28,
+      "question_code": "M28",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-039",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "원래 뜻을 유지하면서 바르게 줄여 쓴 것은?",
+      "question": "My sister is not nervous.",
+      "options": [
+        "My sister aren't nervous.",
+        "My sister isn't nervous.",
+        "My sister doesn't nervous.",
+        "My sister not nervous."
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "My sister isn't nervous."
+      ],
+      "answer_parts": [],
+      "explanation": "is not의 축약형은 isn't이다. are의 축약형이나 일반동사 부정문 형태를 사용할 수 없다.",
+      "tags": "부정문,축약형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 29,
+      "question_code": "M29",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-040",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The dog in the garden ______ very quiet.",
+      "options": [
+        "are",
+        "am",
+        "be",
+        "is"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "in the garden은 위치를 나타내는 전치사구다. 주어 The dog가 단수이므로 is가 맞다.",
+      "tags": "핵심 주어,전치사구",
+      "review": "1차 자체 검수 완료",
+      "display_no": 30,
+      "question_code": "M30",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-041",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: Are Jane and Tom at school?\nB: Yes, ______.",
+      "options": [
+        "they are",
+        "he is",
+        "she is",
+        "they're"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "they are"
+      ],
+      "answer_parts": [],
+      "explanation": "Jane and Tom은 두 사람이므로 they로 받는다. 긍정 단답형의 끝에서는 they are가 올바르다.",
+      "tags": "긍정 단답형,복수 대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 31,
+      "question_code": "M31",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-042",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: Is your brother a soccer player?\nB: No, ______.",
+      "options": [
+        "she isn't",
+        "he aren't",
+        "he isn't",
+        "he doesn't"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "he isn't"
+      ],
+      "answer_parts": [],
+      "explanation": "your brother는 남자 형제 한 명이므로 he로 받는다. is에 대한 부정 단답형은 he isn't이다.",
+      "tags": "부정 단답형,대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 32,
+      "question_code": "M32",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-043",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "주어진 단어를 올바르게 배열한 것은?",
+      "question": "from / where / you / are",
+      "options": [
+        "Where are you from?",
+        "Where you are from?",
+        "Are where you from?",
+        "Where from are you?"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "Where are you from?"
+      ],
+      "answer_parts": [],
+      "explanation": "의문사 where 다음에 be동사 are, 주어 you가 순서대로 온다. from은 문장 끝에 놓인다.",
+      "tags": "의문사 의문문,어순",
+      "review": "1차 자체 검수 완료",
+      "display_no": 33,
+      "question_code": "M33",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-044",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "주어진 평서문을 의문문으로 바르게 바꾼 것은?",
+      "question": "The classroom is quiet.",
+      "options": [
+        "Do the classroom quiet?",
+        "Is quiet the classroom?",
+        "Is the classroom quiet?",
+        "Are the classroom quiet?"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "Is the classroom quiet?"
+      ],
+      "answer_parts": [],
+      "explanation": "is를 주어 The classroom 앞으로 옮기면 Is the classroom quiet?가 된다.",
+      "tags": "의문문 전환,도치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 34,
+      "question_code": "M34",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-045",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "These two boxes ______ empty.",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "These two boxes는 복수이므로 are가 맞다.",
+      "tags": "복수 명사구,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 35,
+      "question_code": "M35",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-046",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "My brother and I ______ not hungry.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "My brother and I는 복수 주어이므로 are not이 된다.",
+      "tags": "복합주어,부정문",
+      "review": "1차 자체 검수 완료",
+      "display_no": 36,
+      "question_code": "M36",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-047",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "This pen and that pencil ______ mine.",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "this pen과 that pencil이라는 서로 다른 두 물건을 and로 연결하므로 복수 취급하여 are를 쓴다.",
+      "tags": "복합주어,지시어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 37,
+      "question_code": "M37",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-048",
+      "kind": "객관식",
+      "level": "기본",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: ______ your grandparents at the hospital?\nB: No, they aren't.",
+      "options": [
+        "Is",
+        "Am",
+        "Are",
+        "Be"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "Are"
+      ],
+      "answer_parts": [],
+      "explanation": "your grandparents는 복수 주어이고 응답에도 they aren't가 있으므로 Are가 필요하다.",
+      "tags": "의문문,부정 단답형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 38,
+      "question_code": "M38",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-049",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "One of the windows ______ open.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "One of + 복수명사구의 핵심어는 One이므로 단수 동사 is를 사용한다.",
+      "tags": "핵심 주어,one of",
+      "review": "1차 자체 검수 완료",
+      "display_no": 39,
+      "question_code": "M39",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-050",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "Each of the rooms ______ clean.",
+      "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "Each of the rooms의 핵심 주어 Each는 단수로 취급한다. 따라서 is가 맞다.",
+      "tags": "each of,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 40,
+      "question_code": "M40",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-051",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The man next to the two girls ______ my uncle.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "주어의 핵심 명사는 The man으로 단수다. next to the two girls는 뒤에서 man을 수식한다.",
+      "tags": "핵심 주어,전치사구",
+      "review": "1차 자체 검수 완료",
+      "display_no": 41,
+      "question_code": "M41",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-052",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "My sister, not my brothers, ______ the team leader.",
+      "options": [
+        "are",
+        "am",
+        "be",
+        "is"
+      ],
+      "answer_index": 3,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "콤마 사이의 not my brothers는 대비 정보를 덧붙인 표현이다. 주어 My sister가 단수이므로 is가 맞다.",
+      "tags": "삽입 표현,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 42,
+      "question_code": "M42",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-053",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "어법상 틀린 문장을 하나 고르시오.",
+      "question": "다음 중 어법상 틀린 문장은?",
+      "options": [
+        "The photo of my friends is old.",
+        "The names on the list is correct.",
+        "The girls in the club are friendly.",
+        "The student with two bags is tall."
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "The names on the list is correct."
+      ],
+      "answer_parts": [],
+      "explanation": "The names는 복수 주어이므로 are correct로 고쳐야 한다. 나머지는 핵심 주어와 be동사의 수가 일치한다.",
+      "tags": "오류 찾기,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 43,
+      "question_code": "M43",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-054",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: Isn't your sister in the band?\nB: Yes, ______. She plays the piano in the band.",
+      "options": [
+        "she isn't",
+        "she doesn't",
+        "she is",
+        "she's"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "she is"
+      ],
+      "answer_parts": [],
+      "explanation": "부정 의문문이라도 실제 사실이 긍정이면 Yes, she is.로 답한다. 뒤 문장에서 밴드 활동을 한다고 확인한다.",
+      "tags": "부정의문문,긍정 단답형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 44,
+      "question_code": "M44",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-055",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The boy and his dog ______ in the picture.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "The boy와 his dog는 별개의 두 존재이며 and로 연결되어 복수 주어가 된다.",
+      "tags": "복합주어,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 45,
+      "question_code": "M45",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-056",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "올바른 응답을 고르시오.",
+      "question": "Which sentence correctly answers “Are the twins in the library?”",
+      "options": [
+        "Yes, he is.",
+        "Yes, they're.",
+        "Yes, they are.",
+        "Yes, it is."
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "Yes, they are."
+      ],
+      "answer_parts": [],
+      "explanation": "the twins는 두 사람이므로 they로 받는다. 긍정 단답형에서는 Yes, they are.라고 쓴다.",
+      "tags": "긍정 단답형,복수 대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 46,
+      "question_code": "M46",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-057",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The books on the top shelf ______ not mine.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 0,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [],
+      "explanation": "on the top shelf는 books를 수식한다. 핵심 주어 The books가 복수이므로 are not을 쓴다.",
+      "tags": "전치사구,핵심 주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 47,
+      "question_code": "M47",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-058",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "우리말과 의미가 일치하는 문장을 고르시오.",
+      "question": "다음 중 주어진 뜻에 알맞은 문장은?\n“네 친구들은 왜 피곤하지 않니?”",
+      "options": [
+        "Why isn't your friends tired?",
+        "Why don't your friends tired?",
+        "Why aren't your friends tired?",
+        "Why are your friends tired?"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "Why aren't your friends tired?"
+      ],
+      "answer_parts": [],
+      "explanation": "your friends는 복수이므로 aren't를 사용한다. be동사의 부정의문문에서 Why aren't your friends ...?가 적절하다.",
+      "tags": "부정의문문,의문사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 48,
+      "question_code": "M48",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-059",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "The color of these flowers ______ beautiful.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer_index": 1,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [],
+      "explanation": "문장의 핵심 주어는 단수 명사 The color다. of these flowers는 color를 꾸며 주므로 is가 맞다.",
+      "tags": "of 전치사구,핵심 주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 49,
+      "question_code": "M49",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-060",
+      "kind": "객관식",
+      "level": "심화",
+      "guide": "다음 빈칸에 알맞은 말을 고르시오.",
+      "question": "A: Are the principal and the teachers ready?\nB: No, ______.",
+      "options": [
+        "he isn't",
+        "she isn't",
+        "they aren't",
+        "they don't"
+      ],
+      "answer_index": 2,
+      "accepted_answers": [
+        "they aren't"
+      ],
+      "answer_parts": [],
+      "explanation": "the principal and the teachers는 여러 사람을 가리키므로 they로 받는다. are에 대한 부정 단답형은 they aren't이다.",
+      "tags": "복합주어,부정 단답형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 50,
+      "question_code": "M50",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-011",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "I ______ from Korea.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "am"
+      ],
+      "answer_parts": [
+        [
+          "am"
+        ]
+      ],
+      "explanation": "주어 I는 1인칭 단수이므로 현재형 be동사 am을 쓴다. I와 함께 is 또는 are를 쓰지 않는다.",
+      "tags": "현재형,인칭",
+      "review": "1차 자체 검수 완료",
+      "display_no": 51,
+      "question_code": "S01",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-012",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "The children ______ in the park.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [
+        [
+          "are"
+        ]
+      ],
+      "explanation": "children은 child의 복수형이므로 are가 필요하다.",
+      "tags": "불규칙 복수명사,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 52,
+      "question_code": "S02",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-013",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "This bag ______ not mine.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "This bag은 단수 주어이므로 is not을 사용한다.",
+      "tags": "단수,부정문",
+      "review": "1차 자체 검수 완료",
+      "display_no": 53,
+      "question_code": "S03",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-014",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "다음 문장을 부정문으로 바꾸시오.",
+      "question": "Mina is tired.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Mina is not tired"
+      ],
+      "answer_parts": [
+        [
+          "Mina is not tired",
+          "Mina isn't tired",
+          "Mina's not tired"
+        ]
+      ],
+      "explanation": "be동사 is 바로 뒤에 not을 넣는다. is not은 isn't로, Mina is not은 Mina's not으로도 표현할 수 있다.",
+      "tags": "부정문 전환,축약형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 54,
+      "question_code": "S04",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-015",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "다음 문장을 의문문으로 바꾸시오.",
+      "question": "Your friends are at home.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Are your friends at home?"
+      ],
+      "answer_parts": [
+        [
+          "Are your friends at home?"
+        ]
+      ],
+      "explanation": "be동사 are를 주어 Your friends 앞으로 옮긴다.",
+      "tags": "의문문 전환,도치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 55,
+      "question_code": "S05",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-016",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "빈칸에 부정의 짧은 대답을 완성하시오.",
+      "question": "A: Is your mother at home?\nB: No, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "she isn't"
+      ],
+      "answer_parts": [
+        [
+          "she isn't",
+          "she is not",
+          "she's not"
+        ]
+      ],
+      "explanation": "your mother는 she로 받는다. 부정 단답형에는 she isn't, she is not, she's not이 모두 가능하다.",
+      "tags": "부정 단답형,축약형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 56,
+      "question_code": "S06",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-017",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "두 빈칸에 알맞은 be동사를 각각 쓰시오.",
+      "question": "A: Where ______ your glasses?\nB: They ______ on the desk.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "are / are"
+      ],
+      "answer_parts": [
+        [
+          "are"
+        ],
+        [
+          "are"
+        ]
+      ],
+      "explanation": "안경을 뜻하는 glasses는 복수로 취급하고 They도 복수 주어이므로 두 칸 모두 are가 맞다.",
+      "tags": "의문사,복수 명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 57,
+      "question_code": "S07",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-018",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "be동사 오류를 수정하여 문장 전체를 다시 쓰시오.",
+      "question": "The teacher with three students are in the library.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "The teacher with three students is in the library."
+      ],
+      "answer_parts": [
+        [
+          "The teacher with three students is in the library."
+        ]
+      ],
+      "explanation": "with three students는 수식어다. 핵심 주어 The teacher는 단수이므로 are를 is로 고쳐야 한다.",
+      "tags": "핵심 주어,오류 수정",
+      "review": "1차 자체 검수 완료",
+      "display_no": 58,
+      "question_code": "S08",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-019",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "주어진 표현을 모두 사용하여 부정 의문사 의문문을 쓰시오.",
+      "question": "(why / your classmates / not / in the classroom)",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Why aren't your classmates in the classroom?"
+      ],
+      "answer_parts": [
+        [
+          "Why aren't your classmates in the classroom?",
+          "Why are your classmates not in the classroom?"
+        ]
+      ],
+      "explanation": "복수 주어 your classmates에 are를 쓴다. Why aren't ...?와 Why are ... not ...? 모두 문법적으로 가능하다.",
+      "tags": "부정의문문,의문사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 59,
+      "question_code": "S09",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-020",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "A는 B와 B의 남동생이 집에 있는지 묻는다. 두 사람 모두 집에 없다. 각 문장을 완성하시오. (you and your brother / at home)",
+      "question": "A: ________________________?\nB: No, ________________________.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Are you and your brother at home? / we aren't"
+      ],
+      "answer_parts": [
+        [
+          "Are you and your brother at home?"
+        ],
+        [
+          "we aren't",
+          "we are not",
+          "we're not"
+        ]
+      ],
+      "explanation": "you and your brother는 복수이므로 Are ...?로 묻는다. B는 자기 자신과 남동생을 we로 받으며 부정 단답형으로 답한다.",
+      "tags": "인칭 전환,부정 단답형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 60,
+      "question_code": "S10",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-061",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "You ______ my partner.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [
+        [
+          "are"
+        ]
+      ],
+      "explanation": "주어 You는 상대방 한 사람을 나타내더라도 현재형 be동사 are와 함께 사용한다. is와 am은 올바르지 않다.",
+      "tags": "현재형,인칭",
+      "review": "1차 자체 검수 완료",
+      "display_no": 61,
+      "question_code": "S11",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-062",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "He ______ from Canada.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "He는 3인칭 단수이므로 is가 필요하다.",
+      "tags": "3인칭 단수,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 62,
+      "question_code": "S12",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-063",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "They ______ at lunch.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [
+        [
+          "are"
+        ]
+      ],
+      "explanation": "They는 복수 대명사이므로 are가 알맞다.",
+      "tags": "복수 주어,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 63,
+      "question_code": "S13",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-064",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "She ______ not at school today.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "She는 3인칭 단수이므로 is not으로 부정문을 만든다.",
+      "tags": "부정문,3인칭",
+      "review": "1차 자체 검수 완료",
+      "display_no": 64,
+      "question_code": "S14",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-065",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "We ______ not late.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [
+        [
+          "are"
+        ]
+      ],
+      "explanation": "We는 복수 주어이므로 are not을 사용한다.",
+      "tags": "부정문,복수",
+      "review": "1차 자체 검수 완료",
+      "display_no": 65,
+      "question_code": "S15",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-066",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "긍정의 짧은 대답을 완성하시오.",
+      "question": "A: Is this your bag?\nB: Yes, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "it is"
+      ],
+      "answer_parts": [
+        [
+          "it is"
+        ]
+      ],
+      "explanation": "this가 가리키는 물건을 it으로 받고 Yes, it is.라고 답한다.",
+      "tags": "긍정 단답형,대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 66,
+      "question_code": "S16",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-067",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "주어진 문장을 바르게 축약하여 쓰시오.",
+      "question": "He is tall.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "He's tall."
+      ],
+      "answer_parts": [
+        [
+          "He's tall."
+        ]
+      ],
+      "explanation": "He is를 축약하면 He's가 된다. 주어와 be동사를 연결할 때 작은따옴표가 빠지지 않도록 주의한다.",
+      "tags": "축약형,긍정문",
+      "review": "1차 자체 검수 완료",
+      "display_no": 67,
+      "question_code": "S17",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-068",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "주어진 문장을 바르게 축약하여 쓰시오.",
+      "question": "I am not angry.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "I'm not angry."
+      ],
+      "answer_parts": [
+        [
+          "I'm not angry."
+        ]
+      ],
+      "explanation": "I am을 I'm으로 줄인다. am not은 일반적으로 amn't로 줄이지 않는다.",
+      "tags": "축약형,부정문",
+      "review": "1차 자체 검수 완료",
+      "display_no": 68,
+      "question_code": "S18",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-069",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "The apples ______ red.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "are"
+      ],
+      "answer_parts": [
+        [
+          "are"
+        ]
+      ],
+      "explanation": "The apples는 복수 명사구이므로 are가 맞다.",
+      "tags": "복수 주어,현재형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 69,
+      "question_code": "S19",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-070",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "알맞은 be동사를 쓰시오.",
+      "question": "Your music ______ loud.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "music은 셀 수 없는 명사로 여기서는 단수 취급하여 is를 사용한다.",
+      "tags": "불가산명사,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 70,
+      "question_code": "S20",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-071",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "긍정의 짧은 대답을 완성하시오.",
+      "question": "A: Are they ready?\nB: Yes, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "they are"
+      ],
+      "answer_parts": [
+        [
+          "they are"
+        ]
+      ],
+      "explanation": "Are they ...?의 긍정 단답형은 Yes, they are.다.",
+      "tags": "긍정 단답형,복수",
+      "review": "1차 자체 검수 완료",
+      "display_no": 71,
+      "question_code": "S21",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-072",
+      "kind": "주관식",
+      "level": "기초",
+      "guide": "부정의 짧은 대답을 완성하시오.",
+      "question": "A: Is Susan happy?\nB: No, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "she isn't"
+      ],
+      "answer_parts": [
+        [
+          "she isn't",
+          "she is not",
+          "she's not"
+        ]
+      ],
+      "explanation": "Susan은 여자 한 사람이므로 she로 받고 is not을 사용한다.",
+      "tags": "부정 단답형,대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 72,
+      "question_code": "S22",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 1"
+    },
+    {
+      "id": "G1-BE-073",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "다음 문장을 부정문으로 바꾸시오.",
+      "question": "These bags are expensive.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "These bags are not expensive."
+      ],
+      "answer_parts": [
+        [
+          "These bags are not expensive.",
+          "These bags aren't expensive."
+        ]
+      ],
+      "explanation": "are 뒤에 not을 넣으면 부정문이 된다. are not은 aren't로 줄일 수 있다.",
+      "tags": "부정문 전환,복수 주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 73,
+      "question_code": "S23",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-074",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "다음 문장을 의문문으로 바꾸시오.",
+      "question": "The music room is empty.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Is the music room empty?"
+      ],
+      "answer_parts": [
+        [
+          "Is the music room empty?"
+        ]
+      ],
+      "explanation": "be동사 is를 주어 the music room 앞으로 이동하면 의문문이 된다. 주어와 보어 empty는 그대로 유지한다.",
+      "tags": "의문문 전환,도치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 74,
+      "question_code": "S24",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-075",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "괄호 속 대명사로 주어를 바꾸어 문장을 다시 쓰시오.",
+      "question": "My sister and I are excited. (we)",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "We are excited."
+      ],
+      "answer_parts": [
+        [
+          "We are excited."
+        ]
+      ],
+      "explanation": "My sister and I는 복수 대명사 We로 바꿀 수 있다. be동사 are는 유지한다.",
+      "tags": "주어 대명사 바꾸기,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 75,
+      "question_code": "S25",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-076",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "긍정의 짧은 대답을 완성하시오.",
+      "question": "A: Are your parents doctors?\nB: Yes, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "they are"
+      ],
+      "answer_parts": [
+        [
+          "they are"
+        ]
+      ],
+      "explanation": "your parents는 복수이므로 they로 받는다. 긍정 단답형의 끝은 are로 쓴다.",
+      "tags": "긍정 단답형,복수 대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 76,
+      "question_code": "S26",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-077",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "부정의 짧은 대답을 완성하시오.",
+      "question": "A: Is Ms. Park your English teacher?\nB: No, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "she isn't"
+      ],
+      "answer_parts": [
+        [
+          "she isn't",
+          "she is not",
+          "she's not"
+        ]
+      ],
+      "explanation": "Ms. Park은 여자 한 사람이므로 she를 사용하고 is not으로 답한다.",
+      "tags": "부정 단답형,인칭",
+      "review": "1차 자체 검수 완료",
+      "display_no": 77,
+      "question_code": "S27",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-078",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "다음 문장을 부정문으로 바꾸시오.",
+      "question": "The boy in the red shoes is my cousin.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "The boy in the red shoes is not my cousin."
+      ],
+      "answer_parts": [
+        [
+          "The boy in the red shoes is not my cousin.",
+          "The boy in the red shoes isn't my cousin."
+        ]
+      ],
+      "explanation": "핵심 주어 The boy가 단수이므로 is를 유지하고 뒤에 not을 넣는다.",
+      "tags": "부정문 전환,핵심 주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 78,
+      "question_code": "S28",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-079",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "주어진 단어를 모두 사용해 의문문을 쓰시오.",
+      "question": "(why / the girls / are / tired)",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Why are the girls tired?"
+      ],
+      "answer_parts": [
+        [
+          "Why are the girls tired?"
+        ]
+      ],
+      "explanation": "Why 뒤에 be동사 are, 주어 the girls, 보어 tired의 순서로 배열한다.",
+      "tags": "의문사 의문문,어순",
+      "review": "1차 자체 검수 완료",
+      "display_no": 79,
+      "question_code": "S29",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-080",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "다음 문장을 부정문으로 바꾸시오.",
+      "question": "We are hungry.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "We are not hungry."
+      ],
+      "answer_parts": [
+        [
+          "We are not hungry.",
+          "We aren't hungry.",
+          "We're not hungry."
+        ]
+      ],
+      "explanation": "be동사 are 뒤에 not을 붙인다. We aren't와 We're not도 올바른 축약형이다.",
+      "tags": "부정문 전환,축약형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 80,
+      "question_code": "S30",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-081",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "be동사 오류를 수정하여 문장 전체를 다시 쓰시오.",
+      "question": "My sister are good at math.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "My sister is good at math."
+      ],
+      "answer_parts": [
+        [
+          "My sister is good at math."
+        ]
+      ],
+      "explanation": "My sister는 3인칭 단수이므로 are가 아니라 is를 사용한다.",
+      "tags": "오류 수정,3인칭 단수",
+      "review": "1차 자체 검수 완료",
+      "display_no": 81,
+      "question_code": "S31",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-082",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "두 빈칸에 알맞은 be동사를 각각 쓰시오.",
+      "question": "This cat ______ small, and those dogs ______ big.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is / are"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ],
+        [
+          "are"
+        ]
+      ],
+      "explanation": "This cat은 단수라 is, those dogs는 복수라 are를 쓴다.",
+      "tags": "지시어,주어별 수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 82,
+      "question_code": "S32",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-083",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "빈칸에 들어갈 be동사를 쓰시오.",
+      "question": "______ your teachers busy today?",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Are"
+      ],
+      "answer_parts": [
+        [
+          "Are"
+        ]
+      ],
+      "explanation": "your teachers는 복수이므로 의문문 맨 앞에 Are를 쓴다.",
+      "tags": "의문문,복수 주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 83,
+      "question_code": "S33",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-084",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "다음 문장을 의문문으로 바꾸시오.",
+      "question": "That is my umbrella.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Is that my umbrella?"
+      ],
+      "answer_parts": [
+        [
+          "Is that my umbrella?"
+        ]
+      ],
+      "explanation": "That is ...의 be동사 is를 주어 that 앞으로 이동한다.",
+      "tags": "의문문 전환,지시대명사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 84,
+      "question_code": "S34",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-085",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "주어진 대화의 빈칸에 알맞은 짧은 대답을 쓰시오.",
+      "question": "A: Are the students in the hall?\nB: No, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "they aren't"
+      ],
+      "answer_parts": [
+        [
+          "they aren't",
+          "they are not",
+          "they're not"
+        ]
+      ],
+      "explanation": "the students는 복수이므로 they로 받는다. are에 대한 부정 단답형을 쓴다.",
+      "tags": "부정 단답형,복수",
+      "review": "1차 자체 검수 완료",
+      "display_no": 85,
+      "question_code": "S35",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-086",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "부정의 짧은 대답을 완성하시오.",
+      "question": "A: Are your aunt and uncle here?\nB: No, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "they aren't"
+      ],
+      "answer_parts": [
+        [
+          "they aren't",
+          "they are not",
+          "they're not"
+        ]
+      ],
+      "explanation": "aunt and uncle 두 사람을 가리키므로 they를 사용한다.",
+      "tags": "부정 단답형,복합주어",
+      "review": "1차 자체 검수 완료",
+      "display_no": 86,
+      "question_code": "S36",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-087",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "두 빈칸에 알맞은 be동사를 각각 쓰시오.",
+      "question": "A: Where ______ your brother?\nB: He ______ at the gym.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is / is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ],
+        [
+          "is"
+        ]
+      ],
+      "explanation": "your brother와 He는 모두 3인칭 단수이므로 is를 사용한다.",
+      "tags": "의문사 의문문,3인칭",
+      "review": "1차 자체 검수 완료",
+      "display_no": 87,
+      "question_code": "S37",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-088",
+      "kind": "주관식",
+      "level": "기본",
+      "guide": "빈칸에 알맞은 be동사를 쓰시오.",
+      "question": "The cover of these books ______ blue.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "핵심 주어는 단수 명사 The cover다. 뒤의 of these books가 복수 명사를 포함하더라도 주어의 수는 변하지 않으므로 is가 맞다.",
+      "tags": "핵심 주어,전치사구",
+      "review": "1차 자체 검수 완료",
+      "display_no": 88,
+      "question_code": "S38",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 2"
+    },
+    {
+      "id": "G1-BE-089",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "다음 문장을 의문문으로 바꾸시오.",
+      "question": "The new student with two friends is nervous.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Is the new student with two friends nervous?"
+      ],
+      "answer_parts": [
+        [
+          "Is the new student with two friends nervous?"
+        ]
+      ],
+      "explanation": "핵심 주어 The new student는 단수다. is를 문장 맨 앞으로 이동한다.",
+      "tags": "핵심 주어,의문문 전환",
+      "review": "1차 자체 검수 완료",
+      "display_no": 89,
+      "question_code": "S39",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-090",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "be동사 오류를 수정하여 문장 전체를 다시 쓰시오.",
+      "question": "One of the books are missing.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "One of the books is missing."
+      ],
+      "answer_parts": [
+        [
+          "One of the books is missing."
+        ]
+      ],
+      "explanation": "One of the books의 핵심어 One은 단수이므로 is가 맞다.",
+      "tags": "one of,오류 수정",
+      "review": "1차 자체 검수 완료",
+      "display_no": 90,
+      "question_code": "S40",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-091",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "다음 문장을 의문문으로 바꾸시오.",
+      "question": "All the chairs except this one are broken.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Are all the chairs except this one broken?"
+      ],
+      "answer_parts": [
+        [
+          "Are all the chairs except this one broken?"
+        ]
+      ],
+      "explanation": "핵심 주어 All the chairs는 복수다. are를 주어 앞으로 옮겨 의문문을 만든다.",
+      "tags": "전치사구,의문문 전환",
+      "review": "1차 자체 검수 완료",
+      "display_no": 91,
+      "question_code": "S41",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-092",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "긍정의 짧은 대답을 완성하시오.",
+      "question": "A: Are your cousins and your uncle here?\nB: Yes, ______.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "they are"
+      ],
+      "answer_parts": [
+        [
+          "they are"
+        ]
+      ],
+      "explanation": "사촌들과 삼촌을 모두 가리키는 복수 주어이므로 they are라고 답한다.",
+      "tags": "복합주어,긍정 단답형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 92,
+      "question_code": "S42",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-093",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "다음 대화의 긍정의 짧은 대답을 완성하시오.",
+      "question": "A: Isn't Mark ready?\nB: Yes, ______. He has his bag.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "he is"
+      ],
+      "answer_parts": [
+        [
+          "he is"
+        ]
+      ],
+      "explanation": "부정 의문문이라도 실제로 준비가 된 상태라면 Yes, he is.라고 답한다.",
+      "tags": "부정의문문,단답형",
+      "review": "1차 자체 검수 완료",
+      "display_no": 93,
+      "question_code": "S43",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-094",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "빈칸에 알맞은 be동사를 쓰시오.",
+      "question": "Each of the players ______ ready.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "Each of + 복수명사에서 핵심어 each는 단수 취급하므로 is를 사용한다.",
+      "tags": "each of,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 94,
+      "question_code": "S44",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-095",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "빈칸에 알맞은 be동사를 쓰시오.",
+      "question": "The only door on this floor ______ locked.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "주어 The only door는 단수이고 on this floor는 수식어이므로 is가 맞다.",
+      "tags": "핵심 주어,전치사구",
+      "review": "1차 자체 검수 완료",
+      "display_no": 95,
+      "question_code": "S45",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-096",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "두 빈칸에 알맞은 be동사를 각각 쓰시오.",
+      "question": "The teacher and the principal ______ at the meeting, but our homeroom teacher ______ absent.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "are / is"
+      ],
+      "answer_parts": [
+        [
+          "are"
+        ],
+        [
+          "is"
+        ]
+      ],
+      "explanation": "teacher and principal은 복수, our homeroom teacher는 단수이므로 순서대로 are, is를 사용한다.",
+      "tags": "복합주어,대조적 수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 96,
+      "question_code": "S46",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-097",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "다음 문장을 부정문으로 바꾸시오.",
+      "question": "My friends and I are nervous.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "My friends and I are not nervous."
+      ],
+      "answer_parts": [
+        [
+          "My friends and I are not nervous.",
+          "My friends and I aren't nervous."
+        ]
+      ],
+      "explanation": "복합주어 My friends and I는 복수이므로 are를 유지하면서 not을 붙인다.",
+      "tags": "복합주어,부정문 전환",
+      "review": "1차 자체 검수 완료",
+      "display_no": 97,
+      "question_code": "S47",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-098",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "빈칸에 알맞은 be동사를 쓰시오.",
+      "question": "The girl with the blue shoes ______ the team captain.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "is"
+      ],
+      "answer_parts": [
+        [
+          "is"
+        ]
+      ],
+      "explanation": "핵심 주어 The girl은 단수이므로 is를 사용한다. with the blue shoes는 수식어다.",
+      "tags": "핵심 주어,수 일치",
+      "review": "1차 자체 검수 완료",
+      "display_no": 98,
+      "question_code": "S48",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-099",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "다음 문장의 오류를 수정하여 문장 전체를 다시 쓰시오.",
+      "question": "The names of the students is on the list.",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "The names of the students are on the list."
+      ],
+      "answer_parts": [
+        [
+          "The names of the students are on the list."
+        ]
+      ],
+      "explanation": "핵심 주어 The names는 복수다. 따라서 is를 are로 수정해야 한다.",
+      "tags": "핵심 주어,오류 수정",
+      "review": "1차 자체 검수 완료",
+      "display_no": 99,
+      "question_code": "S49",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    },
+    {
+      "id": "G1-BE-100",
+      "kind": "주관식",
+      "level": "심화",
+      "guide": "주어진 표현을 모두 사용하여 부정 의문사 의문문을 쓰시오.",
+      "question": "(why / the students / not / in the gym)",
+      "options": [],
+      "answer_index": null,
+      "accepted_answers": [
+        "Why aren't the students in the gym?"
+      ],
+      "answer_parts": [
+        [
+          "Why aren't the students in the gym?",
+          "Why are the students not in the gym?"
+        ]
+      ],
+      "explanation": "the students는 복수이므로 are를 사용한다. Why aren't ...?와 Why are ... not ...? 모두 허용된다.",
+      "tags": "부정의문문,의문사",
+      "review": "1차 자체 검수 완료",
+      "display_no": 100,
+      "question_code": "S50",
+      "unit": "G1-BE",
+      "grade": 1,
+      "version": "1.0",
+      "stage": "STEP 3"
+    }
+  ]
+}
